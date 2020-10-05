@@ -32,7 +32,7 @@ public class ExerciseIntroTestingTest {
 
     @Test
     public void testCountPositive(){
-        final int result = ExerciseIntroTesting.countPositive(new int []{-4, 2, 0, 2});
+        final int result = ExerciseIntroTesting.countPositive(new int []{-4, 2, -1, 2});
         assertEquals(result, 2);
     }
 
